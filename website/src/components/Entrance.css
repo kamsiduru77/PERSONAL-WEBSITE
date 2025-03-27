@@ -1,0 +1,59 @@
+.entrance-hall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("../../public/marble.jpg");
+  /*background: linear-gradient(to bottom, #f0e6f6, #d0c7e3);*/
+  text-align: center;
+  padding: 2rem;
+}
+
+
+.spotlight-glow {
+  background: radial-gradient(circle, rgba(255,255,255,0.9) 30%, transparent 70%);
+  border-radius: 50%;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-entrance {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.museum-title {
+  font-size: 2.8rem;
+  font-family: 'Playfair Display', serif;
+  color: #3c2f2f;
+  margin-bottom: 0.5rem;
+}
+
+.museum-subtext {
+  font-size: 1.2rem;
+  color: #5a4f4f;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.enter-museum-button {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  background-color: #3c2f2f;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.enter-museum-button:hover {
+  background-color: #5a4f4f;
+}

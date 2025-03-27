@@ -1,0 +1,98 @@
+.experience-room {
+  padding: 4rem 2rem;
+  background-color: transparent;
+  text-align: center;
+}
+
+.room-title {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #4b3f2f;
+  margin-bottom: 2.5rem;
+}
+
+.section-group {
+  margin-bottom: 3rem;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  color: #6a5742;
+  margin-bottom: 1rem;
+}
+
+.plaque {
+  background: #fffdf9;
+  border: 2px solid #d1c3a3;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 700px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.plaque:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.plaque h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+  color: #403328;
+}
+
+.plaque p {
+  margin: 0.3rem 0;
+  color: #5a4c3f;
+  font-size: 1rem;
+}
+
+.avatar-commentary.side-bubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  max-width: 700px;
+  gap: 1rem;
+  text-align: center;
+}
+
+.avatar-mini {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid #cdbd9c;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.speech-bubble.small {
+  background: #fff;
+  border: 2px solid #d7c5a3;
+  padding: 1rem 1.3rem;
+  border-radius: 20px 20px 20px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  position: relative;
+  max-width: 320px;
+  text-align: left;
+}
+
+/* 🗨️ lil triangle tail */
+.speech-bubble.small::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-right-color: #fff;
+}
+

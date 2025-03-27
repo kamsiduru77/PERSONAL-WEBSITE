@@ -1,0 +1,54 @@
+.contact-section {
+    background-color: transparent;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem;
+    color: #a0522d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-intro {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #555;
+  }
+  
+  .business-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .business-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.25);
+  }
+  
+  .business-card h3 {
+    margin-top: 0;
+    color: #2f2f2f;
+  }
+  
+  .business-card p {
+    margin: 0.5rem 0;
+    color: #444;
+  }
+  
+  .contact-links a {
+    color: #a0522d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline;
+  }
+  

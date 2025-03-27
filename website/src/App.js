@@ -1,21 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import Entrance from './components/Entrance';
+import ExperienceRoom from './components/ExperienceRoom';
+import ProjectRoom from './components/ProjectRoom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
-import Home from './components/Home'
+import Home from './components/Home';
 
 function App() {
+  const [entered, setEntered] = useState(false);
+
   return (
     <div className="App">
-      <Header />
-      <main>
-        <Home />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
+      {!entered ? (
+        <Entrance onEnter={() => setEntered(true)} />
+      ) : (
+        <>
+          <main>
+            <ExperienceRoom />
+            <ProjectRoom/>
+            <Contact />
+          </main>
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
