@@ -18,7 +18,7 @@ const Entrance = ({ onEnter }) => {
         />
       </div>
       <div className="welcome-text">
-        <h1 className="museum-title">Welcome to the Kamsi Duru Digital Museum</h1>
+        <h1 className="museum-title">Welcome to Kamsi Duru's Digital Museum</h1>
         <p className="museum-subtext">
           Step into my journey through tech, creativity, and ambition.
         </p>
