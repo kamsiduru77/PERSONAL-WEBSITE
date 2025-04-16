@@ -23,29 +23,6 @@ const ExperienceRoom = () => {
 
       <h3 className="section-heading">Education</h3>
 
-
-      {showBubble && (
-        <motion.div
-          className="avatar-commentary side-bubble"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <img src="/avatar-placeholder.png" className="avatar-mini" alt="Kamsi Avatar" />
-          <div className="speech-bubble small">
-            <Typewriter
-              words={["I started my CS journey at community college — it’s where I built my foundation. I plan to transfer to a 4-year in the Fall, though I'm still deciding which one."]}
-              loop={1}
-              cursor
-              cursorStyle="|"
-              typeSpeed={50}
-              deleteSpeed={0}
-              delaySpeed={1000}
-            />
-          </div>
-        </motion.div>
-      )}
-
       
 <div className="section-group">
         
@@ -64,28 +41,6 @@ const ExperienceRoom = () => {
 
       <h3 className="section-heading">Experience</h3>
 
-
-      {showBubble && (
-        <motion.div
-          className="avatar-commentary side-bubble"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <img src="/avatar-placeholder.png" className="avatar-mini" alt="Kamsi Avatar" />
-          <div className="speech-bubble small">
-            <Typewriter
-              words={["I've had some memorable experiences so far. I'm already learning so much and can't wait for what's next!"]}
-              loop={1}
-              cursor
-              cursorStyle="|"
-              typeSpeed={50}
-              deleteSpeed={0}
-              delaySpeed={1000}
-            />
-          </div>
-        </motion.div>
-      )}
 
 <div className="section-group">
         <div className="plaque">

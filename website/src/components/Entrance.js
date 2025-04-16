@@ -10,14 +10,9 @@ const Entrance = ({ onEnter }) => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1.2 }}
     >
-      <div className="spotlight-glow">
-        <img
-          src="/avatar-placeholder.png"
-          alt="Kamsi Avatar"
-          className="avatar-entrance"
-        />
-      </div>
+      
       <div className="welcome-text">
+        
         <h1 className="museum-title">Welcome to Kamsi Duru's Digital Museum</h1>
         <p className="museum-subtext">
           Step into my journey through tech, creativity, and ambition.
